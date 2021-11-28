@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: peru;
+  line-height: 1, 6;
+}
+
+#head {
+  background-image: url(Asset/Bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  align-items: center;
+  padding: 0 20px;
+}
+
+#head h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#head p {
+  font-size: 20px;
+}
+
+#head .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: peru;
+  border: peru 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#head .button:hover {
+  background: peru;
+  color: wheat;
+}
+
+#section-a {
+  padding: 20px;
+  background: peru;
+  color: #fff;
+  text-align: center;
+}
+
+#section-b {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+section .box-3 {
+  background: peru;
+  color: #fff;
+}
+
+#section-c .box-2 {
+  background: #f9f9f9;
+}
